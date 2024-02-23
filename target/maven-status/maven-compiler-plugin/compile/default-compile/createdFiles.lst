@@ -1,0 +1,6 @@
+com\vz\app\service\TraineeServiceImpl.class
+com\vz\app\model\Trainee.class
+com\vz\app\api\TraineeController.class
+com\vz\app\repository\TraineeRepository.class
+com\vz\app\service\TraineeService.class
+com\vz\app\SpringBootAppApplication.class
