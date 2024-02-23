@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="style.css" rel="stylesheet"> -->
+    <style>
+        body{
+            background-color: bisque;
+            text-align: center;
+        }
+        .info{
+            
+             background-color:grey;
+             padding: 10px;
+             margin: 10px;
+             border-radius: 50px;
+
+         }
+         
+        
+    </style>
+</head>
+<body>
+    <h1>JavaScript File</h1>
+    <script>document.write(" hello world<br>");
+    document.write("<h3>hello world</h3>");</script>
+    <div class="container bg-info rounded-pill">
+    <script>
+        document.write("<h1 class=info>This is kowsika</h1><br>from Erode,TN.<br>Working as an intern in verizon"); 
+    </script>
+    </div>
+    <div class="container bg-secondary rounded-pill">s
+    <script>
+        
+        var num1=10,num2=20;
+        var num3=num1+num2;
+        document.write("sum:"+num3+"<br>");
+        var num1=10,num2=20;
+        var num3=num1-num2;
+        document.write("sub:"+num3+"<br>");
+        document.write("The greatest number is ");
+        var num1=10,num2=20;
+        var gtnum= num1>num2?num1:num2;
+        document.write(gtnum+"<br>");
+        document.write(typeof(gtnum)+"<br>");
+        var nam=7;
+        document.write(typeof(nam)+"<br>");
+          nam="kowsi";
+        document.write(typeof(nam)+"<br>");
+        var n1=70,n2=860,n3=100;
+        // var gt=(n1>n2&&n1>n3)?n1:(n2>n1&&n2>n3)?n2:(n3>n1&&n3>n2)?n3:"false"; (or)
+        var gt=(n1>n2&&n1>n3)?n1:(n2>n1&&n2>n3)?n2:n3;
+        document.write(gt+"<br>");
+        document.write("\"kowsi\"");
+    
+    </script>
+    <script>
+        
+        function callIf(){
+
+        var number=47
+        if(number%2==0)
+        document.write("<P>even</P>");
+        else
+        document.write("<P>odd</P>");
+        }
+
+        function callSwitch(){
+            var num=5;
+        switch(num){
+            case 0:document.write("zero");break;
+            case 1:document.write("one");break;
+            case 2:document.write("two");break;
+            case 3:document.write("three");break;
+            case 4:document.write("four");break;
+            case 5:document.write("five");break;
+            case 6:document.write("six");break;
+            case 7:document.write("seven");break;
+            case 8:document.write("eight");break;
+            case 9:document.write("nine");break;
+            default:document.write("error");
+
+        }
+        }
+
+        function callWhile(){
+            var num=2;
+         document.write("while looping...<br>");
+        while(num<=10){
+            document.write(num+"<br>");
+            num++;
+        } 
+        }
+
+        function callDo(){
+            var nu=4;
+        document.write("do-while looping...<br>");
+       do{
+            document.write(nu+"<br>");
+            nu++;
+        } while(nu<=10)
+        }
+
+        function callFor(){
+            document.write("for loop....<br>")
+        var num=10
+        for(var i=0;i<num;i++){
+            if(i%2==0)
+            document.write(i+"<br>")
+        }
+        }
+    </script>
+    </div>
+    <!-- conditional -->
+    <!-- <script>
+        var number=47;
+        if(number%2==0)
+        document.write("<P>even</P>");
+        else
+        document.write("<P>odd</P>");
+    </script>
+     -->
+    <script>
+        // var num=5;
+        // switch(num){
+        //     case 0:document.write("zero");break;
+        //     case 1:document.write("one");break;
+        //     case 2:document.write("two");break;
+        //     case 3:document.write("three");break;
+        //     case 4:document.write("four");break;
+        //     case 5:document.write("five");break;
+        //     case 6:document.write("six");break;
+        //     case 7:document.write("seven");break;
+        //     case 8:document.write("eight");break;
+        //     case 9:document.write("nine");break;
+        //     default:document.write("error");
+
+        // }
+        document.write("<hr>");
+    </script>
+    <!-- looping -->
+    <script>
+        // var num=2;
+        //  document.write("while looping...<br>");
+        // while(num<=10){
+        //     document.write(num+"<br>");
+        //     num++;
+        // } 
+
+        document.write("<hr>");
+    //      var nu=4;
+    //     document.write("do-while looping...<br>");
+    //    do{
+    //         document.write(nu+"<br>");
+    //         nu++;
+    //     } while(nu<=10)
+
+        document.write("<hr>")
+        // document.write("for loop....<br>")
+        // var num=10
+        // for(var i=0;i<num;i++){
+        //     if(i%2==0)
+        //     document.write(i+"<br>")
+        // }
+    </script>
+    <div>
+        <button class="btn btn-primary" value="if" onclick="callIf()">if</button>
+        <button class="btn btn-primary" value="switch" onclick="callSwitch()">switch</button>
+        <button class="btn btn-primary" value="while" onclick="callWhile()">while</button>
+        <button class="btn btn-primary" value="do" onclick="callDo()">do</button>
+        <button class="btn btn-primary" value="for" onclick="callFor()">for</button>
+    </div>
+
+    <h3 id="id2"></h3>
+    <input type="text" id="id1" placeholder="name">
+    <script>
+        let c=0;
+        function callInc(){
+          
+            c++;
+            // document.write(c);
+            document.getElementById("id2").innerHTML=c;          //document.write will overwrite the values while fetching the others elements
+            
+        }
+        function callDec(){
+           
+            c--;
+            // document.write(c);
+            document.getElementById("id2").innerHTML=c;      //whenever u want to assign value to html tags or modify the content in the html page(source code-in vs code) itself use innerhtml.
+           }
+        
+        function getNamess(){
+            var name=document.getElementById("id1").value;      //.value is used to retrieve the exact value, otherwise it will show the object reference
+            window.alert(name);                                 //the element get selcted in backend and displayed using window.alert
+        }
+</script>
+
+        <p id="para1">this is the para</p>
+        <button onclick="changePara()">change</button>
+        <script>
+            function changePara(){
+                document.getElementById("para1").innerHTML="after changePara"
+            }
+    </script>
+    <div>
+        <button class="btn btn-primary" value="inc" onclick="callInc()">Inc</button>
+        <button class="btn btn-primary" value="dec" onclick="callDec()">Dec</button>
+        <button class="btn btn-primary" value="name" onclick="getNamess()">getName</button>
+    </div>
+
+    name:<input type="text" id="id3" placeholder="enter name">
+    <button value="click" onclick="getName()">click</button>
+    <script>
+        function getName(){
+            var name=document.getElementById("id3").value;
+            window.alert("hello "+name+"!");
+        }
+    </script>
+
+
+
+name:<input type="text" id="idd" placeholder="enter name">
+<P id="id4"></P>
+<button value="click" onclick="getNames()">click</button>
+<script>
+    function getNames(){
+        var nam=document.getElementById("idd").value;
+        document.getElementById("id4").innerHTML=nam;
+      
+    }
+</script>
+</body>
+</html>
+
+
+
+<!-- //max of 4 & 5 num using ternary operator and logical operators
+//conditional,looping operator,event handling -->
+
+
+<!-- in js comment=>// or /**/ -->
+
+<!-- in both loops:
+perfect number-sumation of the factors is same as the given number
+palindrome
+sum of digits of a number
+armstrong number
+prime number 
+sum of digits of a number is even or odd-->

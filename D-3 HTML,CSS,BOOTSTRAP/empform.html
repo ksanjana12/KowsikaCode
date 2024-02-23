@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emp details</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <form>
+        <table>
+           
+            <tbody>
+                <tr>
+                    <td>
+        <label for="Name">Emp Name:</label></td>
+        <td><input required type="text" name="name" id="name" placeholder="Enter your name"><br></td></tr>
+        
+        <tr><td><label for="Id">Emp Id:</label></td>
+        <td><input required type="number" name="Id" id="Id" placeholder="Enter your Id number"><br></td></tr>
+
+        <tr><td><label for="mail">E-Mail:</label></td>
+        <td><input required type="email" name="mail" id="mail" placeholder="Enter your email"></td></tr>
+        
+        <tr><td><label for="password">Password:</label></td>
+            <td><input required type="password" name="password" id="password" placeholder="Enter your password"></td></tr>
+
+        <tr><td><label for="Gender">Gender:</label></td>
+        <td><label for="Gender">Female</label>
+        <input required type="radio" name="Gender" id="Gender" value="Female">
+
+        <label for="Gender">Male</label>
+        <input required type="radio" name="Gender" id="Gender" value="Male">
+        
+        <label for="Gender">Others</label>
+        <input required type="radio" name="Gender" id="Gender" value="Others"></td></tr>
+
+
+        <tr><td><label for="salary">Salary</label></td>
+        <td><input required type="number" name="salary" id="salary" placeholder="Enter your salary"><br></td></tr>
+
+        <tr><td><label for="skill" >SkillSet:</label></td>
+        <td>c++<input type="checkbox" name="skill" id="skill" value="c++">
+            Java<input type="checkbox" name="skill" id="skill" value="c++">
+            Spring boot<input type="checkbox" name="skill" id="skill" value="c++">
+            React<input type="checkbox" name="skill" id="skill" value="c++"></td></tr>
+        <tr><td><label for="Qualification">Qualification</label></td>
+        <td><select id="qualification" name="qua">
+            <option></option>
+            <option name="qua" value="BE">B.E</option>
+            <option name="qua" value="B.sc">B.Sc</option>
+            <option name="qua" value="B.Tech">B.Tech</option>
+            <option name="qua" value="B.Com">B.Com</option></td></tr>
+        <tr><td><label for="dob">Date of Birth:</label></td>
+            <td><input type="date" name="dob" value="dob" id="dob" required></td></tr>
+
+            <tr><td><label for="color">Fav Color:</label></td>
+            <td><input type="color" name="color" id="color" required></td></tr>
+
+            <tr id="cen"><td colspan="2"><input type="submit" name="submit" value="submit"></td></tr>
+    </tbody>
+   
+        </table>
+    </form>
+</body>
+</html>

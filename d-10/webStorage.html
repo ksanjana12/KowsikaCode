@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="id1">
+        <button type="button" onclick="clearStoarge()">clear</button>
+
+        <script>
+            if(typeof(storage)!=undefined) {
+                document.write("browser support webstorage")
+                localStorage.setItem("name","nila");         //adding values to the local storage
+                localStorage.setItem("password","3557");
+                document.write(localStorage.getItem("name")); //display the value in browser
+
+                sessionStorage.setItem("name","nila"); //adding values to the session storage
+            }
+            else{
+                document.write("doesn't supports");
+            }
+
+            //to clear the local storage
+            let clearStoarge=()=>{
+                localStorage.clear();     //method to clear the local storage
+            }
+            </script>
+    </div>
+</body>
+</html>
+
+<!-- to see o/p =>run->inspect->application->session or local storage -->

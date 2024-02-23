@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        #style{
+            text-align: center;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1>Login</h1>
+    username:<input type="text" id="uname">
+    password:<input type="password" id="upasswd">
+    <button onclick="validation()">click</button>
+    <script>
+        function validation(){
+            let uname=document.getElementById("uname").value;
+            let upasswd=document.getElementById("upasswd").value;
+            if(uname=="kowsi"&&upasswd=="kowsi")
+                alert("user authentication successfully ");
+            
+            else
+            alert("failed login");
+        }
+    </script> -->
+
+    <h1>User Infos</h1>
+    <div class="container bg-secondary-subtle" id="style">
+   
+   
+    userName:<input type="text" id="un" class="ud" required><br><br>
+    passwords:<input type="password" id="pwd" class="ud" required><br><br>
+    contact:<input type="number" id="contact" class="ud" required><br><br>
+    Email:<input type="email" id="email" class="ud" required><br><br>
+    <button onclick="getDetails()">submit</button> 
+    </div>
+    <script>
+        function getDetails(){
+            // let userName = document.getElementById(un).value;
+            // let passwords= document.getElementById(pwd).value;
+            // let contact = document.getElementById(contact).value;
+            // let email = document.getElementById(email).value;
+            // const userArray=document.getElementsByClassName("ud");
+            const userArray=document.getElementsByTagName("input");      //array element cannot be changes that why we used const
+            // console.log(userArray.length);
+            // for(var i=0;i<userArray.length;i++){
+                //document.write(userArray[0].value+userArray[1].value+userArray[2].value+userArray[3].value);
+
+                let str=" ";
+                for(var i=0;i<userArray.length;i++)
+                str=str+userArray[i].value+" ";
+            //console.log(str);            //to see the o/p on console
+            document.write(str);
+            }
+    </script>
+</body>
+</html>

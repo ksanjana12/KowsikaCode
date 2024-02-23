@@ -1,0 +1,26 @@
+ol{
+    border:solid 1px black;
+    background-color: gray;
+    margin-top: 5%;
+}
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+/* form{
+    margin: 5% 5 5 5;
+    background-color:lightpink;
+} */
+table{
+   margin: 0 auto;
+   text-align: center;
+   border-collapse: collapse;
+   padding: auto;
+   background-color: bisque;
+}
+th, tr, td{
+    border:solid 1px black;
+}
+input{
+    border-color: brown;
+}
