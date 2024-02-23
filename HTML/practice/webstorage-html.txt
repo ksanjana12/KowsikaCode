@@ -1,0 +1,20 @@
+cookie-is a client side storage-4kb size(store user details,some info)-token(smal piece of data)stored in cookie
+
+web storage-2 types-5mb space given
+local -it will store permanently-to delete=>local storage.clear()-data passed to server
+session-untill close the window, the info is stored-data cannot be passed to server
+
+http-stateless protocol-it doesn't store the info of first (request)state info
+
+to know state info:
+url
+session
+cookie
+
+
+
+figma-is a tool-for design ux or webpage-interactive pages
+here, we can have prototype to move from one page to another
+bydefault-everything in canvas i.e frame
+ctrl+d=>duplicate
+different sizs of screen are available, -adv

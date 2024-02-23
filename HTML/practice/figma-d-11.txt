@@ -1,0 +1,10 @@
+figma:-pwd-kowsika@2
+for masking-we should select both image and an shape
+component-reusable object
+copy(instances)(duplicate-ctrl+d) that one component as many times we want and if u want any changes, then do changes in main component ,then it will appear in all the copies
+but u made any changes in copy component that won't affect other copies
+ex.button,logo,hollogrom etc...
+it duplicate components,if u want to hide something, u can hide it
+
+in constraints->selct scale,then we can resize the object at every corner (or) selct the corner where it should be fixed
+pen tool-free flow

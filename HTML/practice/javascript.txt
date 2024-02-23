@@ -1,0 +1,97 @@
+javascript:
+
+it is case sensitive scripting lang and structured lang=>it had method declaration,invoked and defined
+it is not strictly typed=>instead of int,double,-we can use var->it is dynamic type (data type)
+js engine =>compile and excute the code
+
+to process and retrivee the info back
+script-internal and external scripts are there just like css
+internal-haed or body
+external-.js =>we write business logic there
+we can write script either in head or body
+
+dom-document object model
+retrive,process info using dom bcz here we are writing everthing is document
+
+document.write is the one method to print something in screen
+we can add html tags inside script in double quotes so that js engine understood that it is html tag
+ 
+scripting lang work on browser
+
+var,let used for declaring variables
+typeof()=>is used to find datatype
+instanceof()=>it used to check what's the type of data it holding
+\->it always goes with meta char like " or ' etc....=>act as a escape sequence
+it understand all operations like arithmetic,logical etc.. ex.num1+num2
+static data-val given in code itself
+dynamic data-give val on runtime using keyboard.
+
+script and html codes can be separated in single code html file
+
+errors are found in browser->inspect->console
+
+operators,conditional,looping
+
+we can use html elements outside the script or if u want to write inside the script specify that in double quotes
+
+looping:
+1)while-entry controlled loop,pre conditional
+while(num<=10)=>it check condition for 11 times but executes 10 times
+
+2)do-while -exit controlled loop,post conditional loop
+do{
+update an arg
+statement block
+}while(condition)
+ex.menu driven like we should saw what are the options available , then select the option.
+
+3)for=>when u know how many times the iteration is required for the block of code go for -for loop
+it is also entry-controlled, it reduces the length of code and increase the readability
+
+
+event-handling=>
+
+three buttons:
+usedowhile=>
+usewhile=>
+usefor=>
+
+onclick=>used to call the event
+
+function:
+Function <fucntion name>(<arg...>){}
+
+
+
+document=>browser o/p page
+
+
+count++ and ++count=>if u are assigning this to participate in expression then there is a difference then it will work as same
+
+var-it has method level scope
+let-it has block level scope
+
+
+getElementById("id")=>it will retrieve single element(used innerhtml)-return one element
+to print:
+document.write(....
+innerhtml..
+
+getElementsByClassNames("class")=>it will retrieve all the elements which has same class names(used document.write)-form having mul elements under same classnames
+
+
+getElementsByTagName("tag")=>it will reteive all the elements in the given tag ex.input tag.-form having mul elements under sametags-return array of values
+
+array of val-to print that:
+string concatenation
+use for loop to add all elements of array, then use document.write
+for(var i=0;i<arr.length;i++)
+document.write
+
+for array=>use datatype as const, bcz it cannot be changed
+
+
+to display value:
+document.write
+document.getelementbyid().value;
+document.getelementbyid().innerhtml=c;

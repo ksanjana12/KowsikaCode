@@ -1,0 +1,105 @@
+=> <I>italic</I>
+
+=> <u>underline</u>
+
+=> <b>bold</b>
+
+=> <P>para</P> //new para of text
+
+=> <br>break<br>
+
+=> <div>division</div> //it divides codes as diiff sectioni(i.e container), nested div also there(now-a-days)
+
+=> <span> //inline containre ->container inside container
+//span inside container is allowed
+
+=> <pre>
+    it provides the exact style which is written, without br or anthing=>it shows exactly what it was written
+   </pre>
+
+=> type htm and selct 2nd option=>predefined structure.
+
+=> type-ul>li*5 & enter=>called zen coding=>it provide 5 list format in ul 
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+ol=>unordered list
+
+attributes=>properties about elements like src 
+comment=>for soft delete and readiblity
+
+dl>dt+dd
+<dl>          //description list(just for etxra desciptive, it will provide indentation as well by itself)
+    <dt>desciption title</dt>
+    <dd>description data</dd>
+</dl>
+
+ctrl+/=>--comment
+
+<a href=" =>links" >links</a>=>for open in same page
+<a href="second" target="_blank">second</a>=>for open in new tab
+
+using image=>we use src,alt,width and height
+using table=>we use table,tr,td,th tags and border 
+thead,tfoot,
+
+html=>easily messed up bcz of not showing of error
+h1 to h6=>for heaeding =>h1 is the largest and h6 is the smallest, h7 also work but it shows as para text --> -->
+
+
+static - until we do some actions, the changs won't reflect in the page
+dynamic- it will reflect the changes the auotmatically.
+
+view-till react
+contoller-spring mvc
+data modelling-cassendra
+publish using aws
+
+elements- ex:<head>
+attributes-img etc;
+
+relative path -if the images in the same folder
+absolute path-if the images are in the computer like documents folder etc; i.e whole path
+
+we are going to internal css to avoid multiple lines of same coding
+in inline-selectors are not needed
+
+selectors:
+element selectors ---p,img etc..
+class selectors---# is used
+id selectors---. is used
+
+combinator selectors--- combination of elements
+ex:
+<div>
+<h3></h3></div>
+<style>
+div h3{
+}</style>
+1)decendent selectors -- (space)is used --it is a combinator 
+2)child slectors-- > symb is used    <div><P></p></div>      ex:div > p
+3)adjacent/sibilings selectors--+ symb is usd   <div><p></p><h1></h1></div>__ inside single element it has p and h1, here h1 is immediately coming next to p  ex:p + h1
+
+
+4)group selectors-- , is used
+ex:h1,p,div{
+color:red;}
+5)universal selector-- * is used
+ex:*{
+}
+
+
+cell spacing-internal space
+cell padding-distance b/w two cells
+
+html-5,css-3
+bootstrap-version 5
+definition
+
+reponsive page-the page needs to be adjusted  according to the screen size
+d/b container and container-fluid?

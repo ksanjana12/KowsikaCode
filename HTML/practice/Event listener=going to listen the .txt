@@ -1,0 +1,24 @@
+Event listener=>going to listen the particular event i.e event like submit, 
+
+if u are go for addeventlistener, we should add preevntdetails() line
+instead of method and onclick, we use onsubmit here
+
+
+username,pass,con no,mail id, user id, username,sal
+
+
+typecript:
+automatically update going to happen in js file, at second compilation
+ex.to exucte file:
+tsc filename.ts
+node filename.js
+
+let,var,const
+java script:
+it is dynamic type
+it found out what's the type of data going to assigned to a variable at execution time
+type script:
+it is strictly static type
+it found out what's the type of data going to assigned to a variable at compilation time
+
+ts=>is transpiler 

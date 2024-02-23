@@ -1,0 +1,34 @@
+.container & press enter => give the div container line
+
+type=>specify roman letters in ul
+pt-5=>padding top,pb=>padding bottom, mx-5=>horizontal margin, my-5=>vertical margin
+
+
+typography===
+h1=> haeding is taken in a class in bootstrap, rather than using h1 tag 
+
+nested grids=>
+
+.btn-btn=>for buttons
+
+container->rows->col->html elements =>order
+
+
+types of button in bootstrap:
+anchor tag as ->link button
+to submit the form ->input button
+to generate event/trigger an event-> simple button
+
+shortcuts:
+.nav.....=>div tag
+nav.nav.expand______->nav tag
+
+container-fluid=>100% occupy on the screen
+container=>margins will be there
+
+
+navbar-nav
+navbar-text(inside span)=>used to write text in navbars which states what that items about
+navbar-brand=>used for logo placed in navbar
+toggler=>dropdown list/button of navbar list items->list items in ul and inside that li is specified 
+
